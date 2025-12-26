@@ -1,0 +1,280 @@
+# ==========================================
+# CORE DEPENDENCIES
+# ==========================================
+
+# Python Environment
+python-dotenv==1.0.0
+pyyaml==6.0.1
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# ==========================================
+# WEB FRAMEWORK & API
+# ==========================================
+
+# FastAPI & Server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+httpx==0.25.2
+
+# WebSocket
+websockets==12.0
+python-socketio==5.10.0
+
+# CORS
+fastapi-cors==0.0.6
+
+# ==========================================
+# IOT & MESSAGING
+# ==========================================
+
+# MQTT
+paho-mqtt==1.6.1
+
+# Message Queue
+kafka-python==2.0.2
+celery==5.3.4
+redis==5.0.1
+
+# ==========================================
+# DATABASE & STORAGE
+# ==========================================
+
+# PostgreSQL
+sqlalchemy==2.0.23
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+alembic==1.13.0
+
+# Neo4j (Graph Database for Twin Relationships)
+neo4j==5.14.1
+py2neo==2021.2.4
+
+# InfluxDB (Time-Series)
+influxdb-client==1.38.0
+
+# Redis (Cache & State)
+redis==5.0.1
+hiredis==2.2.3
+
+# MongoDB (Document Store)
+pymongo==4.6.0
+motor==3.3.2
+
+# ==========================================
+# DATA PROCESSING
+# ==========================================
+
+# Data Manipulation
+numpy==1.26.2
+pandas==2.1.4
+scipy==1.11.4
+
+# Data Validation
+marshmallow==3.20.1
+cerberus==1.3.5
+
+# ==========================================
+# MACHINE LEARNING & AI
+# ==========================================
+
+# Scikit-learn
+scikit-learn==1.3.2
+
+# Deep Learning
+tensorflow==2.15.0
+torch==2.1.2
+torchvision==0.16.2
+
+# ML Utilities
+joblib==1.3.2
+xgboost==2.0.3
+lightgbm==4.1.0
+
+# Auto ML
+optuna==3.5.0
+
+# Model Serving
+mlflow==2.9.2
+
+# ==========================================
+# DIGITAL TWIN SPECIFIC
+# ==========================================
+
+# Physics Simulation
+pybullet==3.2.5
+simpy==4.1.1
+
+# 3D Visualization
+trimesh==4.0.8
+pyvista==0.43.1
+
+# State Management
+transitions==0.9.0
+
+# ==========================================
+# MONITORING & OBSERVABILITY
+# ==========================================
+
+# Prometheus
+prometheus-client==0.19.0
+
+# Logging
+python-json-logger==2.0.7
+structlog==23.2.0
+
+# Tracing
+opentelemetry-api==1.21.0
+opentelemetry-sdk==1.21.0
+
+# ==========================================
+# CLOUD SERVICES
+# ==========================================
+
+# AWS
+boto3==1.34.10
+aioboto3>=13.0.0
+boto3>=1.34,<1.35
+botocore>=1.34,<1.35
+aiobotocore>=2.9.0
+
+
+# Azure
+azure-identity==1.15.0
+azure-iot-device==2.13.0
+azure-iot-hub==2.6.1
+azure-digitaltwins-core==1.2.0
+
+# Google Cloud
+google-cloud-iot==2.9.1
+google-cloud-pubsub==2.18.4
+
+# ==========================================
+# SECURITY
+# ==========================================
+
+# Encryption
+cryptography==41.0.7
+pycryptodome==3.19.0
+
+# JWT
+pyjwt==2.8.0
+python-jose==3.3.0
+
+# Password Hashing
+bcrypt==4.1.2
+passlib==1.7.4
+
+# OAuth
+authlib==1.3.0
+
+# ==========================================
+# TESTING
+# ==========================================
+
+# Testing Framework
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+
+# Load Testing
+locust==2.19.1
+
+# API Testing
+requests==2.31.0
+httpx==0.25.2
+
+# ==========================================
+# DEVELOPMENT TOOLS
+# ==========================================
+
+# Code Quality
+black==23.12.1
+flake8==6.1.0
+pylint==3.0.3
+mypy==1.7.1
+isort==5.13.2
+
+# Documentation
+sphinx==7.2.6
+sphinx-rtd-theme==2.0.0
+mkdocs==1.5.3
+
+# Debugging
+ipython==8.18.1
+ipdb==0.13.13
+
+# ==========================================
+# UTILITIES
+# ==========================================
+
+# Date & Time
+python-dateutil==2.8.2
+pytz==2023.3.post1
+
+# HTTP
+requests==2.31.0
+aiohttp==3.9.1
+
+# JSON
+orjson==3.9.10
+ujson==5.9.0
+
+# CLI
+click==8.1.7
+rich==13.7.0
+typer==0.9.0
+
+# Progress Bars
+tqdm==4.66.1
+
+# Configuration
+configparser==6.0.0
+
+# ==========================================
+# IMAGE & VIDEO PROCESSING (for Camera Twins)
+# ==========================================
+
+# OpenCV
+opencv-python==4.8.1.78
+
+# PIL
+Pillow==10.1.0
+
+# ==========================================
+# GEOSPATIAL (for Location-based Twins)
+# ==========================================
+
+# Geospatial
+geopy==2.4.1
+shapely==2.0.2
+
+# ==========================================
+# NETWORKING
+# ==========================================
+
+# Network Tools
+scapy==2.5.0
+netaddr==0.10.1
+
+# ==========================================
+# SCHEDULING
+# ==========================================
+
+# Cron
+APScheduler==3.10.4
+
+# ==========================================
+# ADDITIONAL
+# ==========================================
+
+# UUID
+shortuuid==1.0.11
+
+# Retry
+tenacity==8.2.3
+
+# Rate Limiting
+slowapi==0.1.9
